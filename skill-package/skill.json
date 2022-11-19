@@ -1,0 +1,40 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:077308705977:function:a7a2e313-749d-4cee-9875-4929795635ca:Release_0"
+        },
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:077308705977:function:a7a2e313-749d-4cee-9875-4929795635ca:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:077308705977:function:a7a2e313-749d-4cee-9875-4929795635ca:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:077308705977:function:a7a2e313-749d-4cee-9875-4929795635ca:Release_0"
+            }
+          }
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "AnksLocalAudioSkill"
+        }
+      }
+    }
+  }
+}
